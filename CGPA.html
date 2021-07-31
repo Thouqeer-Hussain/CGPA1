@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+</head>
+<link rel="stylesheet" href="CGPA.css">
+
+<body>
+    <fieldset id="color">
+        <!-- <legend>CGPA CALCULATOR</legend> -->
+        <h4 id='style' class='center'>Calculate your CGPA</h4>
+        <div class="main">
+            <div id='leftTable'>
+                <div class="center clr">Enter your GPA</div>
+                <table>
+                    <tr>
+                        <td><input type="number" class="pad" id="GPA-1" placeholder="GPA of SEM:1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="GPA-2" placeholder="GPA of SEM:2"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="GPA-3" placeholder="GPA of SEM:3"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="GPA-4" placeholder="GPA of SEM:4"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="GPA-5" placeholder="GPA of SEM:5"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="GPA-6" placeholder="GPA of SEM:6"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id='rightTable'>
+                <div class="center clr">Enter your credits</div>
+                <table>
+                    <tr>
+                        <td><input type="number" class="pad" id="Credit-1" placeholder="Credits of SEM:1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="Credit-2" placeholder="Credits of SEM:2"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="Credit-3" placeholder="Credits of SEM:3"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="Credit-4" placeholder="Credits of SEM:4"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="Credit-5" placeholder="Credits of SEM:5"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" class="pad" id="Credit-6" placeholder="Credits of SEM:6"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="containerCenter">
+                <div class="output-section">
+                    <div class="output-section1"></div>
+                    <h3 id='dist'>Total CGPA</h3>
+                </div>
+                <div id="btn_sub"><button type="submit">Submit</button></div>
+                <div id="btn_reset"><button>Reset</button></div>
+
+                <div id="result"> </div>
+            </div>
+        </div>
+    </fieldset>
+</body>
+<script src="CGPA.js"></script>
+
+</html>
